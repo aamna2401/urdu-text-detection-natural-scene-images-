@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Model weights and checkpoints (large)
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.weights
+checkpoints/
+checkpoint/
+runs/
+weights/
+
+# Datasets and images (large / redistribution-restricted)
+Dataset/
+dataset_images/
+data/
+*.zip
+*.tar
+*.tar.gz
+*.h5
+!textbpn/dataset/icdar15/gt.zip
+
+# Logs and outputs
+*.log
+tensorboard/
+events.out.*
+output/
+results_raw/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Thesis document (keep local / share on request)
+docs/Thesis.pdf
+
+# More heavy / generated artifacts
+*.rar
+*.7z
+*.gz
+*.bz2
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.mat
+*.db
+*.sqlite
+*.mp4
+*.avi
+*.mov
+*.tif
+*.tiff
+*.psd
+*.docx
+*.pptx
+*.eps
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+*.pem
+*.key
+.cache/
+wandb/
+mlruns/
+lightning_logs/
+
+# Exceptions
+!textbpn/dataset/icdar15/gt.zip
+!docs/Poster.pdf
